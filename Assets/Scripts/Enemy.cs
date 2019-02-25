@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class Enemy : MonoBehaviour
 {
     public Sprite sprite;
-    public Collider collider;
+    public Collider2D collider;
     public List<GameObject> route;
     public Vector3 position;
     public List<int> immunities;
